@@ -9,7 +9,8 @@
     "prepublish": "npm run clean && npm run build",
     "clean": "rimraf dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sample": "webpack-dev-server --port 3001 --config ./sample/webpack.config.js"
+    "sample": "webpack-dev-server --port 3001 --config ./sample/webpack.config.js",
+    "prepack": "npm run build"
   },
   "author": "Chris Oloff <chris@uber5.com> (http://about.uber5.com/)",
   "license": "MIT",
