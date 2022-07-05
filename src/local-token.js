@@ -45,4 +45,13 @@ function setLocalToken(token, expires_in) {
   }
 }
 
-export { getLocalToken, setLocalToken, getLocalExpiresAt }
+function clearLocalToken() {
+  console.log('revokeLocalToken')
+  try {
+    window.localStorage.removeItem(localStorageKey)
+  } catch (e) {
+    // do nothing
+  }
+}
+
+export { getLocalToken, setLocalToken, getLocalExpiresAt, clearLocalToken }
