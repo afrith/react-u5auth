@@ -4,7 +4,7 @@
   "description": "React components to authenticate via U5auth (OAuth2)",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel src --out-dir dist --source-maps",
+    "build": "babel src --out-dir dist --source-maps --copy-files --no-copy-ignored",
     "build:watch": "npm run build -- --watch",
     "prepublish": "npm run clean && npm run build",
     "clean": "rimraf dist",
