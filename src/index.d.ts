@@ -1,4 +1,4 @@
-export const AuthContext: React.ComponentClass<{ clientId: string, provider: string }>
+export const AuthContext: React.ComponentClass<{ clientId: string, provider: string, children?: React.ReactNode }>
 
 export function authenticated<T extends React.Component> (Component: T): T
 
