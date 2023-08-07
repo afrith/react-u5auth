@@ -1,6 +1,6 @@
 {
-  "name": "react-u5auth",
-  "version": "0.1.7",
+  "name": "@adrianfrith/react-u5auth",
+  "version": "0.2.1",
   "description": "React components to authenticate via U5auth (OAuth2)",
   "main": "dist/index.js",
   "scripts": {
@@ -12,10 +12,14 @@
     "sample": "webpack-dev-server --port 3001 --config ./sample/webpack.config.js"
   },
   "author": "Chris Oloff <chris@uber5.com> (http://about.uber5.com/)",
+  "contributors": [
+    "Chris Oloff <chris@uber5.com> (http://about.uber5.com/)",
+    "Adrian Frith <adrianf@da.org.za>"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uber5/react-u5auth.git"
+    "url": "https://github.com/afrith/react-u5auth"
   },
   "dependencies": {},
   "peerDependencies": {
